@@ -3,7 +3,10 @@
 This small add-on removes the characters '$' (by default) and/or '#','>' (of your choice) from the beginning of each line in console code blocks on <strong>github</strong>, thanks to the iteration of html page elements containing code blocks.
 <br><br>
 <a href="https://addons.mozilla.org/en-US/firefox/addon/copy-code-without-prompts/">
-<img alt="get the add-on from firefox add-ons" src="https://blog.mozilla.org/addons/files/2015/11/get-the-addon-small.png">
+   <img alt="get the add-on from firefox add-ons" src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" width="129" height="45">
+</a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/copy-code-without-prompts/blkgmfpbljbbhkmpmpebjokgeblpccpl">
+   <img alt="get the add-on from microsoft edge add-ons" src="https://get.microsoft.com/images/en-us%20dark.svg" width="129" height="45"/>
 </a>
 </p>
 

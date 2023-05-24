@@ -12,7 +12,7 @@
   "author": "gH2843",
   "homepage_url": "https://github.com/gH2843/Copy-code-without-prompts",
   "short_name": "СopyCodeWP",
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["storage"],
   "browser_action": {
     "default_icon": {
       "16": "icons/16.png",
