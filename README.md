@@ -26,3 +26,5 @@ The previous code will be copied without prompts:
  [some console command]
  [some console command]
 ```
+## compatibility
+Use add-on: from the "**chromium**" branch for Chromium based browser, from the "**main**" branch for firefox

@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Copy code without prompts",
   "version": "1.0.0",
   "description": "Copy code from code blocks in github by clicking the copy button without console prompts like as $,#,>",
@@ -13,7 +13,7 @@
   "homepage_url": "https://github.com/gH2843/Copy-code-without-prompts",
   "short_name": "СopyCodeWP",
   "permissions": ["storage"],
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "icons/16.png",
       "32": "icons/32.png"
@@ -27,10 +27,5 @@
       "run_at": "document_idle",
       "js": ["src/main.js"]
     }
-  ],
-  "browser_specific_settings": {
-    "gecko": {
-      "strict_min_version": "57.0"
-    }
-  }
+  ]
 }

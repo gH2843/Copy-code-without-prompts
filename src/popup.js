@@ -13,8 +13,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.*/
 const buttons = document.getElementsByClassName("button");
-async function getData() {
-    const result = await browser.storage.local.get("promptsForRegexpList");
+chrome.storage.local.get("promptsForRegexpList", function(result) {
     let promptsList = result && result.promptsForRegexpList;
     if (promptsList) {
         if (/\$/.test(promptsList)) {buttons[0].classList.add('selected')}
@@ -38,8 +37,7 @@ async function getData() {
                 e.target.classList.add("selected");
                 promptsList = promptsList + chosenSymbol;
             }
-            browser.storage.local.set({ promptsForRegexpList: promptsList });
+            chrome.storage.local.set({ promptsForRegexpList: promptsList });
         }
     });
-}
-getData();
+});

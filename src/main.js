@@ -12,8 +12,8 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.*/
-let promptsList, elements = document.getElementsByClassName("ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay");
-browser.storage.local.get("promptsForRegexpList", function(result) {
+let promptsList, elements = document.getElementsByClassName("ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay">
+chrome.storage.local.get("promptsForRegexpList", function(result) {
     if (result.promptsForRegexpList) {
         promptsList = result.promptsForRegexpList
     }
